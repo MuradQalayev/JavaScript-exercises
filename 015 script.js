@@ -22,7 +22,7 @@ const personalMovieDB = {
    genres: [],
    privat: false
 };
-for (let i=1;i<2;i++) {
+for (let i=0;i<2;i++) {
     const a = prompt("Один из последних просмотренных фильмов?",""),
           b = prompt("На сколько оцените его?","");
     if (a != "" && b != "" && a != null && b != null && a.length < 50) {
